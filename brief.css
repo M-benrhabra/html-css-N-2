@@ -1,0 +1,280 @@
+/*start header*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: montserrat; 
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 97%;
+    padding-left: 25px;
+    padding-right: 25px; 
+    background-color: rgb(253, 235, 212);
+    z-index: 10; 
+    position: fixed;
+}
+.logo{
+    width: 15%;
+    height: 70%;    
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;    
+    width: 500px;    
+}
+nav ul li{
+    list-style-type: none;  
+}  
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul a:hover{
+    text-decoration: overline;
+    color: #58a5ec;
+}
+.sign{
+    width: 8%;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid rgb(68, 37, 243);
+    color: #fff;
+    background-color:  rgb(68, 37, 243);
+}
+
+
+.header{
+    
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:  700px;
+    position: relative;
+    animation: slide 30s ease-in-out infinite;
+
+}
+ 
+@keyframes slide{
+    0% {
+        background-image: url("image/climate-change.jpg");
+    }
+    50% {
+        background-image: url("image/boy-pauv.jpg");
+    }
+    75% {
+        background-image: url("image/eradicated\ extreme__\ poverty.jfif");
+    }
+    100%{
+        background-image: url("image/Image1.png");
+    }
+}
+.header .opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(22, 25, 24, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+
+h1{
+    font-size: 40px;
+    color: #FA6F1C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.size{
+    font-size: 20px;
+    padding: 20px 40px;
+}
+.topsec{
+    height: 450px;
+    width: 100%;
+    background-color: #c4bdb7;
+    align-items: center;
+}
+.qui{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.qui p {
+    text-align: justify;
+    font-weight: bold;
+    padding: 20px;
+}
+.icon {
+    width: 30%;
+    height:50%;
+    padding-left: 110px;
+}
+
+
+.h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteneu{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.climate{
+
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    height: 300px;
+    
+}
+.first_img{
+    width: 95%;
+    height: 200px;
+    border-radius: 100%;  
+    padding:5px 0px 0 6px;   
+}
+.pauvreté{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    height: 300px;
+}
+.scend_img{
+    width: 95%;
+    height: 200px;
+    border-radius: 100%; 
+    padding:5px 0px 0 6px;  
+    
+}
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.third_img{
+    width: 95%;
+    height: 200px;
+    border-radius: 100%; 
+    padding:5px 0px 0 6px;  
+    
+}
+.end{
+    
+    background: url(image/africa.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    position: relative;
+    color: #fff;
+}
+.donate{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 3, 3, 0.65);
+    text-align: center;
+    color: #fff;
+}
+.help{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+}
+h3{
+    font-size: 30px;
+    padding: 40px;
+}
+.input{
+    width: 10%;
+    height: 5%;
+    border-radius: 4px;
+    border: 1px solid #FA6F1C;
+    color: #fff;
+    background-color: #FA6F1C;
+}
+footer{
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    height: 50%;
+    background-color: #000;   
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 90%;
+    padding-left: 40px;
+
+}
+.foot ul{
+    list-style-type: none;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.justify ul li img{
+    width: 5%;
+    height: 10%;
+}
+.ico ul li img{
+    width: 5%;
+    height: 10%;
+}
+.logo_1{
+    width: 15%;
+    height: 15%; 
+    padding: 20px;  
+}
+.font{
+    font-size: 100%;
+}
+.justify{
+    width: 30%;
+
+}
+.one{
+    width: 45%;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    margin-left:-6px;
+}
+.one2{
+    width: 35%;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    margin-left:-6px;
+}
+.para{
+    margin-left: 20px;
+}
+.para h2{
+    text-align: center;
+    
+}
+.para1{
+    margin-right: 20px;
+}
+.para1 h2{
+    text-align: center;
+    
+}
+h2{
+    color: #58a5ec;
+}
+
+
